@@ -130,6 +130,14 @@ main {
 		p {
 			font-size: 1.1em;
 			text-indent: 1.25em;
+
+			a {
+				color: #888;
+			}
+
+			a:hover {
+				color: #666;
+			}
 		}
 
 		hr {
@@ -147,7 +155,7 @@ main {
 
 q.lorebook {
 	display: block;
-	width: 65%;
+	width: 60%;
 	margin: 15px;
 	margin-right: 0;
 	border-radius: 15px;
@@ -308,14 +316,10 @@ div#image_container {
 
 img.image_fullscreen {
 	display: block;
-	width: 60vw;
-	height: 80vh;
 	object-fit: contain;
-	padding: 30px;
 	border: 2px solid gray;
 	border-radius: 5px;
 	margin: auto;
-	margin-top: 5.5%;
 	background-color: black;
 	animation: scale_image 0.2s;
 }
@@ -327,17 +331,13 @@ img.image_fullscreen.willow, img.image_fullscreen.alice {
 	margin-left: auto;
 	margin-right: auto;
 }
-img.image_fullscreen.willow {
-	padding: 30px;
-	margin-top: 12%;
-	width: 20%;
-	height: auto;
-}
 img.image_fullscreen.alice {
+	height: 80vh;
 	padding: 20px;
-	margin-top: 3%;
-	width: 15%;
-	height: auto;
+}
+img.image_fullscreen.willow {
+	width: 20%;
+	padding: 30px;
 }
 @keyframes scale_image {
 	0% {
@@ -359,7 +359,7 @@ img.image_fullscreen.alice {
 	img {
 		width: 36px;
 		height: 36px;
-		filter: invert(100%) sepia(63%) saturate(0%) hue-rotate(65deg) brightness(105%) contrast(101%);
+		filter: invert(100%);
 	}
 }
 
