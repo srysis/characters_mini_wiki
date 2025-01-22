@@ -22,7 +22,7 @@ function JanePage() {
 				</p>
 				<p>
 					This was a short retelling of the creepypasta. The full story can be read 
-					<a href="https://creepypastafiles.fandom.com/wiki/Born_of_Science:_Jane_The_Killer target='_blank'"><em> here</em></a>.
+					<a href="https://creepypastafiles.fandom.com/wiki/Born_of_Science:_Jane_The_Killer" target='_blank'><em> here</em></a>.
 				</p>
 			</section>
 			<section>
